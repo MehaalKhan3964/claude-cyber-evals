@@ -1,0 +1,14 @@
+[project]
+name = "claude-cyber-evals"
+version = "1.0.0"
+description = "Automated LLM Safety, Code Security & Cyber Evaluation Harness for Benchmarking Agentic Models against Prompt Injection, Sandbox Escapes, and Code Vulnerabilities"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
